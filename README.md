@@ -2,8 +2,6 @@
 
 **NumSense** is a two-player number guessing game built with React, designed for fun, brain-boosting duels. Test your intuition, strategy, and number sense against your opponent!
 
-![NumSense Banner](./screenshots/banner.png) <!-- Optional: Add your own screenshot or banner -->
-
 ---
 
 ## 🚀 Features
