@@ -1,12 +1,53 @@
-# React + Vite
+# 🎯 NumSense – The Ultimate Number Guessing Duel Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NumSense** is a two-player number guessing game built with React, designed for fun, brain-boosting duels. Test your intuition, strategy, and number sense against your opponent!
 
-Currently, two official plugins are available:
+![NumSense Banner](./screenshots/banner.png) <!-- Optional: Add your own screenshot or banner -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎮 **Classic Duel Mode** – Two players take turns guessing hidden numbers.
+- 🧠 **Smart Feedback** – Dynamic prompts using player names and guess accuracy.
+- 🎲 **Randomized Start** – One player is chosen at random to go first.
+- 📱 **Responsive UI** – Clean, consistent layout across modes.
+- ☁️ **Coming Soon:** Puzzle Mode with cryptic math-based challenges.
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – Frontend framework
+- 💅 **CSS** – Custom styling
+- 🧪 **Vite** – Lightning-fast dev environment
+
+---
+
+## 🧩 Game Modes
+
+### 🎯 Classic Duel
+
+- One player guesses the secret number until correct.
+- Then, the second player takes their turn with a new secret number.
+- Fewer attempts = victory!
+
+### 🔐 Puzzle Mode *(Coming Soon)*
+
+- Cipher-style number guessing challenge (think Wordle + Sudoku).
+- Strategic play + mental math = thrill guaranteed.
+
+---
+
+## 🧑‍💻 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/nunsense.git
+cd nunsense
+
+# Install dependencies
+npm install
+
+# Start the game
+npm run dev
